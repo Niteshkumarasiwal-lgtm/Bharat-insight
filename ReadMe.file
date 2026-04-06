@@ -1,0 +1,77 @@
+🇮🇳 Bharat Insight – AI Driven Analytics Platform
+overview
+Bharat Insight is an AI-powered analytics dashboard that visualizes data and allows users to generate insights using AI. The platform is designed with a scalable architecture and modern frontend technologies.
+
+
+
+ Live Demo
+https://bharatinsightai.netlify.app/
+
+---
+ GitHub Repository https://github.com/Niteshkumarasiwal-lgtm/Bharat-insight  
+
+---
+ Features
+
+-  Data visualization in table format  
+-  Search and filtering functionality  
+-  Department-based data simulation (Health & Agriculture)  
+-  AI-powered question answering  
+-  Fast and responsive UI  
+
+---
+ 🛠 Tech Stack
+
+- **Frontend:** Next.js (App Router), React, TypeScript  
+- **Styling:** Tailwind CSS  
+- **Backend:** Next.js API Routes  
+- **AI Integration:** Google Generative AI API  
+- **Data Source:** Mock API (JSONPlaceholder)  
+
+--
+
+ How It Works
+
+1. The application fetches user data from a mock API.  
+2. Data is dynamically rendered in a dashboard table.  
+3. Users can filter data using search and department selection.  
+4. AI integration allows users to ask questions based on data.  
+5. Backend API processes the request and returns AI-generated insights.  
+
+---
+ AI Integration
+
+The AI functionality is implemented using a backend API route:
+
+- Sends selected dataset + user query to AI model  
+- Processes response  
+- Displays generated insights on UI  
+
+--- Challenges Faced
+
+- Handling large dataset simulation efficiently  
+- Managing project structure during deployment   
+
+---
+
+ Future Improvements
+
+- Integration with real government APIs  
+- Real-time data updates  
+- User authentication system  
+- Advanced data visualization (charts & graphs)  
+
+---
+ Note
+
+Currently, mock APIs are used for development purposes. 
+The architecture is designed to easily integrate real-world APIs in future.
+
+---
+
+ Author
+
+**Nitesh Kumar Asiwal**  
+Frontend Developer  
+
+---
