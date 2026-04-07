@@ -15,7 +15,6 @@ export default function Dashboard() {
       .then((res) => {
         const bigData = [];
         const repeat = dept === "health" ? 200 : 100;
-
         for (let i = 0; i < repeat; i++) {
           bigData.push(...res);  }
           setData(bigData);   });
