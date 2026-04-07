@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
-import { getDepartmentDatasetPage } from "@/lib/data-gov";
-import type { DepartmentId } from "@/lib/types";
+import { getDepartmentDatasetPage } from"../../../lib/data-gov";
+import type { DepartmentId } from"../../../lib/types";
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
